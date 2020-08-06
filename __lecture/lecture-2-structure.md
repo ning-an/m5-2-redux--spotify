@@ -113,6 +113,8 @@ export default combineReducers({
 // What is the initial state?
 ```
 
+{color: 'red', number: 4}
+
 ---
 
 ```js
@@ -132,7 +134,7 @@ export default combineReducers({
 // What is the initial state?
 ```
 
----
+## {item: {hi: 5}, location: 'montreal'}
 
 ```js
 function petReducer(state) {
@@ -151,7 +153,7 @@ export default combineReducers({
 // What is the initial state?
 ```
 
----
+## {pet: 'cat', household: 'couch'}
 
 ```js
 function modalReducer(state) {
@@ -181,7 +183,7 @@ export default combineReducers({
 // What is the initial state?
 ```
 
----
+## {data: {entries: []}, ui: {modal: null, tooltip: null}}
 
 ## How it works
 
